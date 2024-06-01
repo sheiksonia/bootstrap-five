@@ -1,0 +1,207 @@
+/* common area code start */
+body{
+    margin-top: 20px;
+}
+.container{
+    max-width: 1140px;
+    min-width: 400px;
+}
+/* common area code end */
+/* header section start */
+.top-header{
+    color: #fff;
+    background: #006666;
+    padding: 5px 10px;
+}
+.top-header-left a{
+    color: #fff;
+    text-decoration: none;
+}
+.top-header-right a{
+    color: #fff;
+    text-decoration: none;
+}
+#header-offcanvas ul li a{
+    color: #54555E;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 1px solid #c2c2c2;
+}
+#header-offcanvas ul li a:hover{
+    color: #00b16a;
+}
+#header-offcanvas .offcanvas-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#header-section .top-header-left .search-bar{
+position: relative;
+}
+#header-section .top-header-left .search-bar input{
+background: transparent;
+border: none;
+border-bottom: 1px solid #fff; 
+border-radius:5%;
+color: #fff; 
+outline:none;
+transition: .2s linear;
+}
+#header-section .top-header-left .search-bar input:focus{
+    transform: scaleX(1.1);
+}
+#header-section .top-header-left .search-bar button{
+   position: absolute;
+   right: 0;
+   background: transparent;
+   border: none;
+   color: #fff;
+}
+#header-section .bannar{
+    min-height: 160px;
+    background: url('../img/bb_banner.jpg') no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: end;
+     justify-content: end;
+
+}
+#header-section .bannar .nav{
+   width: 45%;
+
+    justify-content: end;
+   margin-bottom:5px;
+   padding: 1px 0px;
+   position: relative;
+
+}
+#header-section .bannar .nav::before{
+   content: '';
+   left: -7%;
+   top: -10%;
+   position: absolute;
+   border-left: 20px solid transparent;
+   border-right: 17px solid #fff;
+   border-top: 20px solid transparent;
+   border-bottom: 17px solid #fff;
+}
+
+#header-section .bannar .nav a{
+    font-size: 14px;
+      color: #54555E;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    display: inline-block;
+    padding:5px 8px;
+  
+}
+#header-section .bannar .nav a:hover{
+   color: #00b16a;
+  
+}
+/* header section end */
+ /*slider govornor start*/
+ #slider-govornor .title {
+    background: #00B16A;
+    text-transform: uppercase;
+    font-weight: 900;
+   display: block;
+    color: #ffffff;
+    text-align: left;
+    padding: 0.2rem; 
+
+ }
+  #slider-govornor .poster .govt-images img {
+    width: auto;
+    height: 8.8rem;
+    margin-right: 0.5rem;  
+ }
+  #slider-govornor .govt-title h2 {
+       color: #54555E;
+    font-size: 1rem;
+    padding: 5px;
+    text-transform: uppercase; 
+ }
+   #slider-govornor .govt-title span {
+    color: #747474;
+    padding: 0.2rem 0;
+    font-size: 10px;
+    font-weight: 500;
+    display: inline-block;
+ }
+   #slider-govornor .govt-title a {
+     color: #054588;
+    text-decoration: none;
+    cursor: pointer;
+ }
+    #slider-govornor  img{
+    width: 90%;
+    height: 14rem;
+
+ }
+ /*slider govornor end*/
+ /*recent-news-label start*/
+ #recent-news-label .recent-news span{
+    background-color: #00b16a;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    color: #fff;
+    padding: 0 16px;
+    line-height: 36px;
+    height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 14px;
+    float: left;
+ }
+ /*recent-news-label end*/
+ /*box-section start start*/
+ #box-section .box-green{
+     border-top: 0.3rem solid #28a745;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    flex: 0 0 70%;
+    border-radius: 2px;
+    margin: 0px 30px;
+ }
+
+  #box-section .card-content h2{
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    margin: 0.5rem 1rem 0.5rem;
+    text-transform: uppercase;
+    color: #3c3f3d;
+ }
+ #box-section .card-content h2:before{
+    content: "";
+    display: inline-block;
+    background-image: linear-gradient(to top, #28a745, #28a745);
+    width: 0.2rem;
+    height: 1rem;
+    position: absolute;
+    left: -0.7rem;
+   
+ }
+ #box-section .box-red-content-item ul li a{
+    color: #054588;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ #box-section .box-red-content-item .fa-greater-than{
+   display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: 10px;
+    text-rendering: auto;
+    
+ }
+ #box-section .card-icon-content-icon .fa-apple-whole{
+   color: #00b16a;
+  font-size:50px;
+ }
+ /*box-section start end*/
